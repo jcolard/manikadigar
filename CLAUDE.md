@@ -26,4 +26,11 @@
 ├── public/
 │   ├── manifest.json    # Configuration PWA pour l'installation sur mobile/desktop
 │   └── logo.png         # Logo et icône de l'application
+|   └── icon-512.png     #favicon1
+|   └── icon-192.png     #favicon2
 └── CLAUDE.md            # Ce fichier
+
+
+
+
+
