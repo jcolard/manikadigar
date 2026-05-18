@@ -29,6 +29,11 @@
 |   └── icon-512.png     #favicon1
 |   └── icon-192.png     #favicon2
 └── CLAUDE.md            # Ce fichier
+└── package.json         # package.json
+└── next.config.js       # next.config.js
+└── .github/
+    └── workflows
+        └── deploy.yml   # deploy.yml
 
 
 
