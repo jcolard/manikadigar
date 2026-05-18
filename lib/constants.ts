@@ -3,6 +3,22 @@ import { Trait } from '../types/game';
 export const NAMES = ['Léa','Tom','Sami','Inès','Nora','Yann','Mei','Jules','Aïsha','Léo','Maya'];
 export const JOKER_NAMES = ['Aria', 'Sage', 'Robin', 'Charlie', 'Phénix'];
 export const MECENE_NAMES = ['Fondation Martin', 'Groupe Leclercq', 'Mécène Anonyme'];
+export const PROFILS = [
+  { type: 'senior',       label: 'Senior',       faces: ['👵','👴','🧓'],       offer: 'logement' as const,      need: 'numerique' as const,    weight: 10 },
+  { type: 'etudiant',     label: 'Étudiant',     faces: ['🧑‍🎓','👨‍🎓','👩‍🎓'],   offer: 'numerique' as const,     need: 'logement' as const,     weight: 10 },
+  { type: 'jeune-actif',  label: 'Jeune actif',  faces: ['👱','👱‍♀️','🧑'],        offer: 'energie' as const,       need: 'calme' as const,        weight: 8 },
+  { type: 'retraite',     label: 'Retraité',     faces: ['👴','👵','🧓'],       offer: 'calme' as const,         need: 'energie' as const,      weight: 8 },
+  { type: 'famille-hote', label: 'Famille hôte', faces: ['👨‍👩‍👧','👨‍👩‍👦'],      offer: 'logement' as const,      need: 'creativite' as const,   weight: 6 },
+  { type: 'artiste',      label: 'Artiste',      faces: ['🧑‍🎨','👨‍🎨','👩‍🎨'],   offer: 'creativite' as const,    need: 'logement' as const,     weight: 6 },
+  { type: 'jardinier',    label: 'Jardinier',    faces: ['🧑‍🌾','👨‍🌾','👩‍🌾'],   offer: 'nature' as const,        need: 'bienveillance' as const,weight: 5 },
+  { type: 'aidant',       label: 'Aidant',       faces: ['🧑‍⚕️','👩‍⚕️','👨‍⚕️'], offer: 'bienveillance' as const, need: 'nature' as const,       weight: 5 },
+  { type: 'pro-transition', label: 'En transition', faces: ['🧔','👩‍🦰','👨‍🦱'],      offer: 'reseau' as const,        need: 'bienveillance' as const,weight: 5 },
+  { type: 'mentor',       label: 'Mentor',       faces: ['👨‍🏫','👩‍🏫','🧑‍🏫'],   offer: 'bienveillance' as const, need: 'reseau' as const,       weight: 5 },
+  { type: 'entrepreneur', label: 'Entrepreneur', faces: ['🧑‍💼','👨‍💼','👩‍💼'],   offer: 'reseau' as const,        need: 'creativite' as const,   weight: 4 },
+  { type: 'creatif',      label: 'Créatif',      faces: ['🧑','👨','👩'],       offer: 'creativite' as const,    need: 'reseau' as const,       weight: 4 },
+  { type: 'voyageur',     label: 'Voyageur',     faces: ['🧑','🧔','👩'],       offer: 'energie' as const,       need: 'logement' as const,     weight: 4 },
+  { type: 'naturaliste',  label: 'Naturaliste',  faces: ['🧑','👨','👩'],       offer: 'nature' as const,        need: 'numerique' as const,    weight: 4 }
+];
 
 export const TRAITS: Record<Trait, { icon: string; label: string }> = {
   logement:      { icon: '🏠', label: 'Logement' },
