@@ -1,0 +1,22 @@
+{
+  "name": "Lien pour l'autre — L'habitat inclusif",
+  "short_name": "LienPourLautre",
+  "description": "Le jeu officiel de l'association Lien pour l'autre",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF6EC",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
