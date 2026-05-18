@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,600&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg: #FDF6EC;
+  --bg-2: #F5E8D3;
+  --ink: #2A2A2A;
+  --ink-soft: #5C4A3A;
+  --paper: #FFFBF3;
+  --accent: #E8623D;
+  --accent-soft: #F4A582;
+  --gold: #D4A574;
+  --gold-dark: #B8854A;
+  --green: #6B8E5A;
+  --blue: #4A6FA5;
+  --purple: #8B6BAA;
+  --teal: #5BA89C;
+  --shadow-soft: 0 2px 0 rgba(42,42,42,0.08), 0 4px 16px rgba(42,42,42,0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+button, .icon-btn, .action-btn, .sort-btn { touch-action: manipulation; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Outfit', sans-serif;
+}
+
+.game { 
+  display: flex; 
+  flex-direction: column; 
+  height: 100dvh; 
+  width: 100vw; 
+}
+
+/* Copie/Colle ici la stricte intégralité du reste de ton CSS (Dashboard, Gallery, Animations, Toasts...) */
